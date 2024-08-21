@@ -29,7 +29,7 @@
             background-color: black;
             border: 2px solid white;
             width: 300px;
-            height: 200px;
+            height: 250px;
             margin: 10px;
             padding: 10px;
             text-align: left;
@@ -42,9 +42,11 @@
             color: white;
         }
         .window p {
-            font-size: 16px;
+            font-size: 14px;
             margin-top: 10px;
             color: white;
+            line-height: 1.2;
+            white-space: pre;
         }
         @keyframes flicker {
             0%, 100% { opacity: 1; }
@@ -66,24 +68,57 @@
 
     <div class="window">
         <h2>Oculi Tui</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget metus nec lectus tempus consequat.</p>
+        <p>
+            ───────▒███▒──────────▒███▒──────
+            ────████████▒──────▒████████─────
+            ───███▒──▒████────████▒──▒███────
+            ───███▒────▒███▒███▒────▒███─────
+            ───▒███─────███████─────███▒─────
+            ─────███▒──▒███▒███▒──▒███▒──────
+            ──────████████▒─▒████████────────
+            ───────▒███▒──────▒███▒──────────
+        </p>
     </div>
     <div class="window">
         <h2>Verba Occulta</h2>
-        <p>Curabitur vehicula magna non arcu suscipit, a tempor metus dictum. Sed non leo nec dolor ultricies bibendum.</p>
+        <p>
+            ░░░░░░░░░░░░░░░░▄▄▄███░░░░░░░░░░░
+            ░░░░░░░░░░▄▄▄███████████▄▄░░░░░░░
+            ░░░░░░░▄████████████████████▄░░░░
+            ░░░░░▄████████████████████████░░░
+            ░░░░████████████████████████████░
+        </p>
     </div>
     <div class="window">
         <h2>Sacrificium</h2>
-        <p>Mauris finibus, ligula vel scelerisque suscipit, nunc sapien ultricies orci, at cursus magna enim id eros.</p>
+        <p>
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣴⣶⡾⠿⠿⠛⠋⠉
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⢻⡟⠉⠙⠛⠷⠶⣤⣄⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⠟⠁⠀⠈⢳⡀⠀⠀⠀⠀⠀⠈⠙⢦⡀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠋⠁⠀⠀⠀⠀⣸⠃⠀⠀⠀⠀⠀⠀⠀⠀⠻
+            ⠀⠀⠀⠀⠀⠀⢀⣼⠋⠀⠀⠀⠀⠀⢀⣼⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⢀⣴⠟⠁⠀⠀⠀⠀⣠⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⣠⡿⠋⠀⠀⠀⣀⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        </p>
     </div>
     <div class="window">
         <h2>Tenebris</h2>
-        <p>In hac habitasse platea dictumst. Nullam nec eros et tortor vehicula tincidunt ac eget lacus.</p>
+        <p>
+            ⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⣤⣀⠀⠀⠀⠀⠀⢀⣠⡾⠻⠛⠶
+            ⠀⠀⠀⠀⠀⢀⣤⡾⠃⠀⠀⠀⠀⠀⣻⠿⠿⠿⠿⠶⠾⠻⠿⠿⠛⠛⠓
+            ⠀⠀⠀⠀⣰⠟⠁⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⣸⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⣰⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⢀⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀
+            ⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠳⠶⠶⢶⠶⠶⠖
+        </p>
     </div>
 
     <p>Inveniet veritatem...</p>
 </body>
 </html>
+
 
     <p class="glitch">They are watching...</p>
 </body>
