@@ -7,7 +7,7 @@
     <style>
         body {
             background-color: black;
-            color: #33ff33;
+            color: white;
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
             margin-top: 50px;
@@ -16,24 +16,35 @@
             font-size: 48px;
             margin-bottom: 20px;
             animation: flicker 3s infinite;
+            color: white;
         }
         p {
             font-size: 24px;
             margin-bottom: 30px;
             animation: flicker 4s infinite;
+            color: white;
         }
-        a {
-            color: #33ff33;
-            text-decoration: none;
+        .window {
+            display: inline-block;
+            background-color: black;
+            border: 2px solid white;
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            text-align: left;
+            position: relative;
+        }
+        .window h2 {
             font-size: 20px;
-            animation: flicker 5s infinite;
+            text-align: center;
+            margin: 0;
+            color: white;
         }
-        a:hover {
-            color: red;
-        }
-        .glitch {
-            font-size: 20px;
-            animation: glitch 1s infinite;
+        .window p {
+            font-size: 16px;
+            margin-top: 10px;
+            color: white;
         }
         @keyframes flicker {
             0%, 100% { opacity: 1; }
@@ -51,10 +62,29 @@
 </head>
 <body>
     <h1>WELCOME TO THE ABYSS</h1>
-    <p>There is no turning back...</p>
-    <p><a href="page2.html">Enter if you dare</a></p>
-    <p class="glitch">0011010110100110...</p>
-    <p class="glitch">Reality is an illusion...</p>
+    <p>Nosce te ipsum...</p>
+
+    <div class="window">
+        <h2>Oculi Tui</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget metus nec lectus tempus consequat.</p>
+    </div>
+    <div class="window">
+        <h2>Verba Occulta</h2>
+        <p>Curabitur vehicula magna non arcu suscipit, a tempor metus dictum. Sed non leo nec dolor ultricies bibendum.</p>
+    </div>
+    <div class="window">
+        <h2>Sacrificium</h2>
+        <p>Mauris finibus, ligula vel scelerisque suscipit, nunc sapien ultricies orci, at cursus magna enim id eros.</p>
+    </div>
+    <div class="window">
+        <h2>Tenebris</h2>
+        <p>In hac habitasse platea dictumst. Nullam nec eros et tortor vehicula tincidunt ac eget lacus.</p>
+    </div>
+
+    <p>Inveniet veritatem...</p>
+</body>
+</html>
+
     <p class="glitch">They are watching...</p>
 </body>
 </html>
