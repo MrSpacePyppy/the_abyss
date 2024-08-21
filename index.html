@@ -11,6 +11,8 @@
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
             margin-top: 50px;
+            line-height: 1.2;
+            white-space: pre;
         }
         h1 {
             font-size: 48px;
@@ -19,105 +21,83 @@
             color: white;
         }
         p {
-            font-size: 24px;
-            margin-bottom: 30px;
+            font-size: 18px;
             animation: flicker 4s infinite;
             color: white;
-        }
-        .window {
-            display: inline-block;
-            background-color: black;
-            border: 2px solid white;
-            width: 300px;
-            height: 250px;
-            margin: 10px;
-            padding: 10px;
-            text-align: left;
-            position: relative;
-        }
-        .window h2 {
-            font-size: 20px;
-            text-align: center;
-            margin: 0;
-            color: white;
-        }
-        .window p {
-            font-size: 14px;
-            margin-top: 10px;
-            color: white;
-            line-height: 1.2;
-            white-space: pre;
         }
         @keyframes flicker {
             0%, 100% { opacity: 1; }
             50% { opacity: 0.4; }
         }
-        @keyframes glitch {
-            0% { transform: translate(0); }
-            20% { transform: translate(-2px, 2px); }
-            40% { transform: translate(2px, -2px); }
-            60% { transform: translate(-2px, -2px); }
-            80% { transform: translate(2px, 2px); }
-            100% { transform: translate(0); }
-        }
     </style>
 </head>
 <body>
     <h1>WELCOME TO THE ABYSS</h1>
-    <p>Nosce te ipsum...</p>
 
-    <div class="window">
-        <h2>Oculi Tui</h2>
-        <p>
-            ───────▒███▒──────────▒███▒──────
-            ────████████▒──────▒████████─────
-            ───███▒──▒████────████▒──▒███────
-            ───███▒────▒███▒███▒────▒███─────
-            ───▒███─────███████─────███▒─────
-            ─────███▒──▒███▒███▒──▒███▒──────
-            ──────████████▒─▒████████────────
-            ───────▒███▒──────▒███▒──────────
-        </p>
-    </div>
-    <div class="window">
-        <h2>Verba Occulta</h2>
-        <p>
-            ░░░░░░░░░░░░░░░░▄▄▄███░░░░░░░░░░░
-            ░░░░░░░░░░▄▄▄███████████▄▄░░░░░░░
-            ░░░░░░░▄████████████████████▄░░░░
-            ░░░░░▄████████████████████████░░░
-            ░░░░████████████████████████████░
-        </p>
-    </div>
-    <div class="window">
-        <h2>Sacrificium</h2>
-        <p>
-            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣴⣶⡾⠿⠿⠛⠋⠉
-            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡴⢻⡟⠉⠙⠛⠷⠶⣤⣄⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⠟⠁⠀⠈⢳⡀⠀⠀⠀⠀⠀⠈⠙⢦⡀
-            ⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠋⠁⠀⠀⠀⠀⣸⠃⠀⠀⠀⠀⠀⠀⠀⠀⠻
-            ⠀⠀⠀⠀⠀⠀⢀⣼⠋⠀⠀⠀⠀⠀⢀⣼⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⢀⣴⠟⠁⠀⠀⠀⠀⣠⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⣠⡿⠋⠀⠀⠀⣀⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-        </p>
-    </div>
-    <div class="window">
-        <h2>Tenebris</h2>
-        <p>
-            ⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⣤⣀⠀⠀⠀⠀⠀⢀⣠⡾⠻⠛⠶
-            ⠀⠀⠀⠀⠀⢀⣤⡾⠃⠀⠀⠀⠀⠀⣻⠿⠿⠿⠿⠶⠾⠻⠿⠿⠛⠛⠓
-            ⠀⠀⠀⠀⣰⠟⠁⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⣸⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⣰⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⢀⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀
-            ⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠳⠶⠶⢶⠶⠶⠖
-        </p>
-    </div>
+    <p>
+        *     .--.
+            / /  `
+           | |
+        _| |__    .     *
+       (   __)  / \   /\ ))
+        ( _ (   ( ()  /  .'
+        (_ (_)   ` |  '._.'
+    .     `--'   _|_
+                  | |
+     .           | |
+                .|=|.
+               '  |
+                  "
+        *     .  - Demonic Face -
+    </p>
 
-    <p>Inveniet veritatem...</p>
+    <p>
+        _______  _______  _______  _       _________ _______  _______  _______ 
+       (  ____ \(  ____ \(  ___  )( (    /|\__   __/(  ____ \(  ____ )(  ____ \
+       | (    \/| (    \/| (   ) ||  \  ( |   ) (   | (    \/| (    )|| (    \/
+       | (__    | (__    | |   | ||   \ | |   | |   | (__    | (____)|| (_____ 
+       |  __)   |  __)   | |   | || (\ \) |   | |   |  __)   |     __)(_____  )
+       | (      | (      | |   | || | \   |   | |   | (      | (\ (         ) |
+       | )      | )      | (___) || )  \  |   | |   | )      | ) \ \__/\____) |
+       |/       |/       (_______)|/    )_)   )_(   |/       |/   \__/\_______)
+                - Pentagram -
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet, magna nec fringilla convallis, ligula nisi dignissim justo, ac dictum sapien justo vitae nunc.</p>
+
+    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam auctor eros eu ligula congue, at venenatis enim cursus.</p>
+
+    <p>
+        .       .      .     .       .      .
+         .    .       .   .   .    .        .    . .
+        *        .  .    .     .   . . .    .      .
+        .   .    .     .   *   .    .   .   .    . .
+          .      .      .      .     .    .       .    . .
+        *        .  .    .     .   . . .    .      .
+    </p>
+
+    <p>Aliquam erat volutpat. Nam ultricies eros vitae massa consectetur, vel sollicitudin odio vestibulum. Ut luctus, lacus at pulvinar interdum, odio dui euismod lorem, vel facilisis nunc erat in justo.</p>
+
+    <p>Integer sollicitudin, urna sed vestibulum euismod, nisi eros luctus neque, non porttitor lorem leo sed nulla.</p>
+
+    <p>
+        .  .       *    .      .  .       *    .        *
+         .     *     .    .    .   .   *    .      *      .
+        .       .      .      .     .    .       .    .  .
+    </p>
+
+    <p>Quisque vehicula, nisl et tincidunt feugiat, arcu ex dapibus tortor, et ullamcorper nisi urna ac orci.</p>
+
+    <p>Sed vitae ligula eu nunc interdum vehicula. Nulla facilisi. Suspendisse potenti.</p>
+
+    <p>Praesent aliquam urna nec urna sodales, eget tristique sapien bibendum.</p>
+    
+    <p>Donec a ligula non ipsum sollicitudin mollis. Etiam suscipit justo id odio auctor suscipit.</p>
+
+    <p>Sed ut imperdiet risus. Curabitur at risus malesuada, scelerisque sapien vel, facilisis velit.</p>
 </body>
 </html>
+
 
 
     <p class="glitch">They are watching...</p>
