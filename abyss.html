@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Abyss</title>
+    <style>
+        body {
+            background-color: black;
+            color: #33ff33;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            animation: flicker 3s infinite;
+        }
+        p {
+            font-size: 24px;
+            margin-bottom: 30px;
+            animation: flicker 4s infinite;
+        }
+        a {
+            color: #33ff33;
+            text-decoration: none;
+            font-size: 20px;
+            animation: flicker 5s infinite;
+        }
+        a:hover {
+            color: red;
+        }
+        .glitch {
+            font-size: 20px;
+            animation: glitch 1s infinite;
+        }
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(2px, -2px); }
+            60% { transform: translate(-2px, -2px); }
+            80% { transform: translate(2px, 2px); }
+            100% { transform: translate(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO THE ABYSS</h1>
+    <p>There is no turning back...</p>
+    <p><a href="page2.html">Enter if you dare</a></p>
+    <p class="glitch">0011010110100110...</p>
+    <p class="glitch">Reality is an illusion...</p>
+    <p class="glitch">They are watching...</p>
+</body>
+</html>
